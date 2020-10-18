@@ -8,10 +8,10 @@ class Puppy
     end
 
     def speak 
-            "#{name} days 'arf!'"
+            "#{@name} days 'arf!'"
     end
 
     def to_s 
-        "#{name} is just a lil pup.  He's a #{breed}."
+        "#{@name} is just a lil pup.  He's a #{@breed}."
     end
 end
